@@ -23,12 +23,21 @@ public class Lab11avst
     {
         System.out.println("\nCOMPUTING PRIME NUMBERS");
 
+        for (int num = 0; num < primes.length; num++){
+            primes[num] = true;
+            int notPrime = 0;
+            num * num-- = notPrime;
+
+        }
+
     }
 
     public static void displayPrimes(boolean primes[])
     {
         System.out.println("\n\nPRIMES BETWEEN 1 AND "+ primes.length);
-        System.out.println();
+        for (int num = 1; num < primes.length; num++){
+            System.out.println(primes[num]);
+        }
 
     }
 
