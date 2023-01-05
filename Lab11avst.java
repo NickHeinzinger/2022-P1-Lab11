@@ -43,6 +43,7 @@ public class Lab11avst
         for (int num = 1; num < primes.length; num++){
             if (primes[num] == true)
                 System.out.print(num + " ");
+
         }
 
     }
