@@ -39,11 +39,17 @@ public class Lab11avst
     {
         System.out.println("\n\nPRIMES BETWEEN 1 AND "+ primes.length);
         System.out.println();
+        int counter = 0;
 
         for (int num = 1; num < primes.length; num++){
-            if (primes[num] == true)
+            if (primes[num] == true) {
                 System.out.print(num + " ");
-
+                counter++;
+                if (counter == 15) {
+                    System.out.println();
+                    counter = 0;
+                }
+            }
         }
 
     }
